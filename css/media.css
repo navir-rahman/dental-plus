@@ -1,0 +1,39 @@
+
+/*--supper small-------*/
+@media (max-width:300px) {
+  /* preHead */
+.preHead{
+  display: none;
+}
+
+
+}
+
+/* small */
+@media (max-width: 575px) {
+  /* preHead */
+.preHead{
+  display: none;
+}
+
+}
+
+/* medieam */
+@media (max-width: 765px) {
+  /* preHead */
+.preHead{
+  display: none;
+}
+
+}
+
+/* large */
+@media (max-width: 991px) {
+
+
+}
+
+/* extra large */
+@media (max-width: 1199px) {
+
+}

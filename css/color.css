@@ -1,0 +1,57 @@
+*{}
+.textwhite{
+  color: #fff;
+}
+.nutcolor{
+ color: #f69165!important;
+}
+.bluecolor{
+  color: #00cce1!important;
+}
+/* prehead */
+/* bg color */
+.bgcolorblue{
+  background-color: #00cce1;
+}
+.bgcolornut{
+  background-color: #f69165;
+}
+.imgbgcolor{
+  background-color: #E7E7E7;
+}
+/* imgbgcolor hover #454545 */
+.bordercolorYgreen{
+  border-color: #EBEBEB;
+}
+.bordercolornut{
+  border-color: #f69165;
+}
+.bordercolorblue{
+  border-color: #00cce1;
+}
+/* our pricing bg color */
+.pricingbgcolor{
+  background-color: #F9F9F9;
+}
+/* prefooter */
+.preFooter{
+  background: #191919;
+}
+.prefooterbgcolor{
+  background-color: #191919;
+  color: #4D4D4D;
+}
+.prefootercontactcolor{
+  color: #0B8793;
+}
+
+.follow{}
+.follow h4{}
+.follow h4 i{
+  background-color:#323232;
+}
+/* footer */
+.footerbgcolor{
+  background-color: #161616;
+  color: #4D4D4D;
+}

@@ -1,0 +1,416 @@
+*{
+margin: 0;
+padding: 0;
+text-transform: capitalize;
+font-family: Roboto;
+		transition: 0.4s ease;
+}
+body{
+  margin: auto;
+}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+p{
+  font-size: 12px;
+  color: gray;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  color: #f69165;
+  text-decoration: none;
+}
+}
+
+/* prehead */
+.preHead{
+
+}
+.logo{
+  display: flex;
+}
+.logoText{}
+.dental{
+  color: black;
+}
+
+/* pre head help */
+.preHeadHelp{
+
+}
+.preHeadHelp row{
+
+}
+.preheaderStyle{
+  align-items: center;
+}
+.preheaderStyle i{
+  padding: 5px;
+  font-size: 28px;
+}
+.preheaderStyle h3{font-size: 1em;margin: 0;font-weight: bold;}
+.preheaderStyle h6{font-size: 10px;font-weight:normal;}
+
+  /* nav bar menu */
+
+.menu{}
+.colapseD{
+padding: 0.5em;
+}
+.line{
+      width: 20px;
+      height: 2px;
+      display: block;
+      margin: 2px 0;
+  }
+.custom_Brnd{
+  transform:skewX(160deg);
+  padding: 10px;
+}
+.custom_Brnd:hover{
+	color: #00cce1;
+}
+/* poster */
+.poster{
+  position: relative;
+  background:#fff;
+  margin: auto;
+}
+.poster_text{
+  padding: 30% 0;
+
+}
+#particles-js{
+height: 100%;
+width: 100%;
+position: absolute;
+
+}
+.poster_text * {
+  background: transparent;
+}
+.poster_text h2{
+  padding: 0.4rem;
+  font-weight: bold;
+  display: inline-block;
+
+}
+.poster_text h1{
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.1rem;
+}
+.poster_text p{
+    padding: 0.1rem;
+    font-weight: bold;
+    color: gray
+}
+.poster_btn{}
+.poster_btn button{
+  text-transform: capitalize;
+  font-weight: bold;
+transition: 0.5s ease;
+}
+.poster_btn button:hover{
+  background-color: #f69165;
+  color: white;
+}
+/* welcome */
+.welcome{
+  margin: 2em 0;
+}
+.welcomeImg{}
+.welcomeImg img{}
+.welcomeText{
+    font-weight: bold;
+}
+.welcomeText h4{}
+.welcomeText p{}
+.extraction{
+  padding: 1em;
+}
+.extraction:hover{
+
+}
+.extraction i{
+    font-size: 36px;
+}
+.extraction h6{font-weight: bold;}
+.extraction p{text-transform: capitalize;}
+
+
+/* meet our doctor */
+.gallery{}
+.design1{
+  text-align: center;
+  margin: 2rem;
+}
+.design1 h4{}
+.dna{
+    transform: rotate(90deg);
+    font-size: 2rem;
+}
+.design1 p{}
+.glary_crd{
+  background: #E7E7E7;
+  border: none;
+  margin: 1em auto;
+  position: relative;
+  transition: 0.5s ease;
+}
+.glary_crd:hover{
+  color: #f69165;
+}
+.glary_crd:hover .blacklyer{
+opacity: 0.5;
+color: #f69165;
+}
+.glary_crd:hover .doctors_link i{
+  opacity: 1;
+}
+.blacklyer {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+   transition: 0.5s ease;
+}
+.glary_crd img{
+  max-width: 10rem;
+  margin: auto;
+  max-height: 12em;
+
+}
+.glary_crd_body{
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px #00cce1 solid;
+  z-index: 1;
+  transition: 0.5s ease;
+
+}
+.glary_crd:hover .glary_crd_body{
+  border-bottom: 4px #f69165 solid;
+}
+.glary_crd_body h5{}
+.glary_crd_body p{}
+.doctors_link{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+}
+.doctors_link i{
+  border: 3px solid;
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+  color: black;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: #fff;
+  transition: 0.4s ease;
+
+}
+.doctors_link i:hover{
+  border: 3px #f69165 solid;
+  background: #f69165;
+
+}
+
+
+/* our services */
+
+.Cbody{
+    border: 3px solid #e1e8b4ad;
+    transition: 0.5s ease-in;
+}
+.Cbody:hover{
+    border: 3px solid #f69165;
+    color: #f69165;
+}
+.Cbody h4{
+  font-weight: bold;
+}
+.Cbody p{}
+.card_link{
+  color: gray;
+  transition: 0.5s ease;
+}
+.Cbody:hover .card_link{
+color: #f69165;
+}
+
+/* our pricing plane */
+.pricing{
+background: #F9F9F9;
+padding: 2em 0;
+}
+.ourServices{
+  padding: 5rem 0;
+}
+.business{
+  text-align: center;
+  background-color: #fff;
+  padding: 4px;
+  color: #00CDE2;
+  transition: 0.5s ease;
+}
+.business:hover{
+background: #f69165;
+color: #fff;
+}
+
+.business-head{
+  background: #F9F9F9;
+  padding: 0.5em;
+}
+.business-head h3{
+  color: #00CDE2;
+  transition: 0.5s ease;
+}
+
+.business:hover .business-head h3{
+  color: #f69165;
+}
+.per{
+  color: #00cce1;
+}
+.business:hover .per{
+  color: #fff;
+}
+.business p h3{
+  font-weight: bold;
+  padding: 0.5rem;
+
+}
+.perMonth{
+  color: #00CDE2;
+}
+.perMonth h1{
+  font-weight: bold;
+}
+
+.perMonth p{font-weight: bold;}
+.our-offer a{
+  background: #00CDE2;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0;
+  margin: 1em 0;
+}
+.our-offer{
+  background: #F9F9F9;
+  padding: 1em;
+}
+.offer{color: gray;font-size: 14px;}
+.businesslink{
+transition: 0.5s ease;
+}
+.business:hover .businesslink{
+  background: #f69165;
+}
+
+/* our heppy clints */
+.happyClints{
+  background-image: url(../img/doctorcover.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  padding:4rem 0;
+}
+.ourClintsLinks{
+	margin: 5rem 0;
+}
+.ourclintlogo{
+  display: flex;
+	max-height: 10rem;
+}
+/* pre footer */
+.preFooter{
+  padding: 2em 0;
+}
+.heading{}
+.heading h2{
+  font-weight: bold;
+padding:1rem 0;
+}
+.headingP{}
+.post{
+  display: flex;
+
+}
+.post img{
+
+  background-color:#fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  width: 50px;
+  height: 50px;
+  margin: 5px 8px 0px 0px;
+}
+.comment p{}
+.postTime{}
+.postTime p{}
+.dezin2{font-size: 24px;display: flex;padding: 0.4rem;align-items: center;
+}
+.dezin2 p{margin: 0.4rem;}
+
+.follow{}
+.follow h4{
+  padding: 1em 0;
+}
+.follow h4 i{
+padding: 10px;
+}
+/* footer */
+.foot{
+  text-align: center;
+  background-color: black;
+  padding: 1em;
+}
+footer p{
+  margin: auto 0;
+  padding: 0;
+}
+
+
+
+.searchbox{
+    background: white;
+    display: flex;
+    border-radius: 12px;
+		width: 50%;
+		transition: all 0.4s ease;
+}
+.searchbox_input{
+    outline: none;
+    background: no-repeat;
+    border: none;
+    color: #fff;
+    width: 100%;
+    height: 34px;
+    line-height: 1.5;
+}
+.searchbox_a{
+    color: #fff;
+
+    border: 1px;
+    background: #00cce1;
+    padding: 5px;
+    border-radius: 50%;
+   margin: 3px;
+}
+.searchbox a i{}
+.searchbox:hover{
+	    width: 100%;
+}
